@@ -1,8 +1,8 @@
 class CarFactory {
   createCar(type) {
     switch (type) {
-      case 'Sedan':
-        return new SedanCar();
+      case 'Saloon':
+        return new SaloonCar();
       case 'SUV':
         return new SUVCar();
       case 'Truck':
@@ -16,3 +16,4 @@ class CarFactory {
 const carFactory = new CarFactory();
 const sedan = carFactory.createCar('Sedan');
 const suv = carFactory.createCar('SUV');
+const truck = carFactory.createCar('Truck');
