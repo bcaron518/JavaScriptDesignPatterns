@@ -17,22 +17,22 @@ This repository demonstrates the implementation of three common design patterns 
 
 The Singleton pattern ensures that a class has only one instance and provides a global point of access to that instance. It's useful when exactly one object is needed to coordinate actions across the system.
 
-- [singleton.js](/singleton.js): Example implementation of the Singleton pattern.
-- [singleton-example.js](/singleton-example.js): Demonstration of using the Singleton pattern.
+- [Pattern/singleton.js](/Pattern/singleton.js): Example implementation of the Singleton pattern.
+- [Pattern-Example/singleton-example.js](/Pattern-Example/singleton-example.js): Demonstration of using the Singleton pattern.
 
 ### 2. Observer Pattern
 
 The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. It's useful for implementing distributed event handling systems.
 
-- [observer.js](/observer.js): Example implementation of the Observer pattern.
-- [observer-example.js](/observer-example.js): Demonstration of using the Observer pattern.
+- [Pattern/observer.js](/Pattern/observer.js): Example implementation of the Observer pattern.
+- [Pattern-Example/observer-example.js](/Pattern-Example/observer-example.js): Demonstration of using the Observer pattern.
 
 ### 3. Factory Pattern
 
 The Factory pattern is used for creating objects without specifying the exact class of object that will be created. It allows subclasses to alter the type of objects created. It's useful for abstracting object creation.
 
-- [factory.js](/factory.js): Example implementation of the Factory pattern.
-- [factory-example.js](/factory-example.js): Demonstration of using the Factory pattern.
+- [Pattern/factory.js](/Pattern/factory.js): Example implementation of the Factory pattern.
+- [Pattern-Example/factory-example.js](/Pattern-Example/factory-example.js): Demonstration of using the Factory pattern.
 
 ## Usage
 
@@ -42,20 +42,20 @@ To use these design patterns in your JavaScript application, you can follow the 
 
 You can find example implementations and demonstrations for each design pattern in the following files:
 
-- [singleton-example.js](/singleton-example.js)
-- [observer-example.js](/observer-example.js)
-- [factory-example.js](/factory-example.js)
+- [Pattern-Example/singleton-example.js](/Pattern-Example/singleton-example.js)
+- [Pattern-Example/observer-example.js](/Pattern-Example/observer-example.js)
+- [Pattern-Example/factory-example.js](/Pattern-Example/factory-example.js)
 
 Feel free to run these examples to see the design patterns in action.
 
 ## Folder Structure
 
-- `singleton.js`: Singleton pattern implementation.
-- `singleton-example.js`: Example usage of the Singleton pattern.
-- `observer.js`: Observer pattern implementation.
-- `observer-example.js`: Example usage of the Observer pattern.
-- `factory.js`: Factory pattern implementation.
-- `factory-example.js`: Example usage of the Factory pattern.
+- `Pattern/singleton.js`: Singleton pattern implementation.
+- `Pattern-Example/singleton-example.js`: Example usage of the Singleton pattern.
+- `Pattern/observer.js`: Observer pattern implementation.
+- `Pattern-Example/observer-example.js`: Example usage of the Observer pattern.
+- `Pattern/factory.js`: Factory pattern implementation.
+- `Pattern-Example/factory-example.js`: Example usage of the Factory pattern.
 
 ## Contributing
 
@@ -63,4 +63,4 @@ If you'd like to contribute to this repository or improve the code examples, ple
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). 
+This repository is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed for your projects.
