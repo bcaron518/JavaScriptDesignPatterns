@@ -6,7 +6,7 @@ const { CarFactory } = require('./factory');
 const carFactory = new CarFactory();
 
 // Create different types of cars using the factory
-const sedan = carFactory.createCar('Saloon');
+const saloon = carFactory.createCar('Saloon');
 const suv = carFactory.createCar('SUV');
 const truck = carFactory.createCar('Truck');
 
